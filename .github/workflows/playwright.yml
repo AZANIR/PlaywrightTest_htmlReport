@@ -23,7 +23,6 @@ jobs:
     - run: npm i -g npm@latest
     - run: npm i npm@latest
     - run: npm i
-    - run: npm install allure-commandline --save-dev
     - run: npx playwright install 
     - name: run test
       # trying to run tests
